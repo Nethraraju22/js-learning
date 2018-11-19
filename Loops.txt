@@ -1,0 +1,163 @@
+
+var name = "js";
+switch(name){
+case 'js':
+console.log('learning ${name}');
+break;
+case 'HTML':
+console.log('learning ${name}');
+break;
+default:
+console.log('start learning');
+}
+
+
+
+var name = "Html";
+switch(name){
+case 'js':
+console.log('learning ${name}');
+break;
+case 'HTML':
+console.log('learning ${name}');
+break;
+default:
+console.log('start learning');
+}
+
+
+FOR Loop
+
+for (i=1; i<6; i++){
+    console.log('javascript')
+}
+
+
+for (i=1; i<6; i++){console.log(i)
+}
+
+
+for (i=1; i<6; i++){
+    console.log(2*i)
+}
+
+for (i=1; i<6; i++){
+    console.log('2*1' + i + '=' + 2*i)
+}
+
+
+for (i=1; i<6; i++){
+    console.log('2*1' + i + '=' + 2*i)
+}
+
+console.log(`2*${i} = ${2*i}`)
+
+var i=1;
+for(; i<10;i++){
+console.log(i);
+}
+
+
+
+var i=1;
+if (i ==10)
+break;
+}
+console.log(i)
+i++;
+}
+console.log(i);
+}
+
+
+for(var i=1 ; i<10 ;i++{
+if (i==5)
+{
+continue
+}
+console.log(i)
+}
+
+
+
+var a = [ 1,2,3,4,5,6]
+for (var i = 0; i < a.lenght; i++){
+console.log(i)
+}
+
+var a = [ 1,2,3,4,5,6]
+var b = 0;
+var c=a+b
+for (var i = 0; i < a.lenght; i++){
+
+console.log(c)
+}
+
+
+var a = [ 1,2,3,4,5,6]
+var b = 0;
+b=b+a[i];
+for (var i = 0; i < a.lenght; i++){
+
+console.log(b)}
+
+for (var i=1 ; i>0 ;i++){
+console.log(i)
+}
+
+for (var i=1 ; i>0 ;i++){
+console.log(i)
+break;
+}
+
+
+While  Loop 
+
+var i= 0
+while(i<10){
+console.log(i)}
+i++;
+
+
+var i= 0
+while(i<10){
+
+if(i==3)
+{
+continue
+}
+console.log(i)
+i++;
+}
+console.log(i)}
+i++;
+
+
+
+var i= 0
+while(i<10){
+i++;
+if(i==3);
+{
+continue
+}
+console.log(i)
+
+}
+
+DO WHILE LOOP
+
+
+var i = 1
+do{
+console.log(i)
+i++;
+}while(i<10)
+
+
+for (var i=1 ; i>0 ;i++){
+
+console.log(i/2= 10);
+
+break;
+}

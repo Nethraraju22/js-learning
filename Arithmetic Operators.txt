@@ -1,0 +1,54 @@
+    // 1. Remainder %
+var a = 10;
+
+var b = 20
+ ;
+b %= 10;
+
+console.log(b);
+
+
+// 2. Increment ++
+
+var a = 10;
+
+var b = 20
+ ;
+b ++;
+console.log(b);
+
+var a = 10;
+
+var b = 20
+ ;
+++b;
+console.log(b);
+
+// 3. Decrement --
+
+var a = 10;
+
+var b = 20
+ ;
+b --;
+console.log(b);
+
+var a = 10;
+
+var b = 20
+ ;
+b--;
+console.log(b);
+
+// 4. Unary negation -x
+
+
+var a = 10;
+
+var b = 20
+ ;
+-b;
+console.log(b);
+
+    // 5. Unary Plus +x
+
