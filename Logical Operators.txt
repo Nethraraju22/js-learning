@@ -1,0 +1,27 @@
+// 1. Logical AND &&
+
+var a = 10;
+var b = 20;
+var c = 60;
+console.log(a<b&&c>b);
+
+
+// 2. Logical OR ||
+// Lazy evaluation
+
+var a = 10;
+
+var b = 20;
+
+var c = 60;
+
+console.log(c>b||b>a);
+
+// 3. Logical Not !
+
+
+var a = 10;
+
+var b = 20;
+
+console.log(!(a>b));

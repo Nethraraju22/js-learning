@@ -1,0 +1,53 @@
+// 1.   Assignment x = y
+
+var a = 10;
+console.log(a);
+
+// 2.   Addition Assignment x+=y
+var a = 10;
+
+var b = 20
+ ;
+b += 10;
+
+console.log(b);
+
+
+ // 3.   Substraction Assignment x-=y
+var a = 10;
+
+var b = 20
+ ;
+b -= 10;
+
+console.log(b);
+
+
+// 4.   Multiplication Assignment x*=y
+var a = 10;
+
+var b = 20
+ ;
+b *= 10;
+
+console.log(b);
+
+// 5.   Division Assignment x/=y
+var a = 10;
+
+var b = 20
+ ;
+b /= 10;
+
+console.log(b);
+
+
+// 6.   Remainder Assignment x%=y
+var a = 10;
+
+var b = 20
+ ;
+b %= 10;
+
+console.log(b);
+

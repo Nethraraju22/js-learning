@@ -1,0 +1,61 @@
+// 1. Equals ==
+
+var a =10;
+var b = 10;
+console.log(a==b);
+
+var a = '77';
+var b = 77;
+console.log(a==b);
+
+
+// 2. Not Equals !=
+
+var a =10;
+var b = 10;
+console.log(a!=b);
+
+var a =10;
+var b = 20;
+console.log(a!=b);
+
+ // 3. Strict Equals ===
+
+var a = '77';(as it is consider as string)
+var b = 77;
+console.log(a===b);
+
+var a = 77;
+var b = 77;
+console.log(a===b);
+
+
+// 4. Strict Not Equal !==
+
+var a = '77';(as it is consider as string)
+var b = 77;
+console.log(a!==b);
+
+var a = 77;
+var b = 77;
+console.log(a!==b);
+
+
+// 5. Greater than >
+
+var a = 77;
+var b = 72;
+console.log(a>b);
+
+// 6. Greater than or equal >=
+
+var a = 77;
+var b = 72;
+console.log(a>=b);
+
+// 7. Less than or equal <=
+
+var a =10;
+var b = 20;
+console.log(a<=b);
+
