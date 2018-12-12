@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>div</title>
+<style>
+
+	div{
+	height: 100px;
+        width: 200px;
+        float : left;
+        background-color: black 
+	}
+</style>
+</head>
+<body>
+<script>
+    
+for(var i=0; i<=16 ;i++)
+{
+var mydiv = document.createElement('div')
+document.body.appendChild(mydiv)
+}
+    var divs = document.querySelectorAll('div')
+    
+    
+    for (var i =0; i<divs.length;i++)
+    divs[i].onclick = function(e){
+        e.target.style.backgroundColor = bgcolor();
+    }
+function random(n){ 
+	return Math.floor(Math.random()*n)
+	}
+    function bgcolor(){
+        return `rgb(${random(255)},${random(255)},${random(255)})`
+    }
+    console.log(div)
+    
+</script>
+</body>
+</html>
