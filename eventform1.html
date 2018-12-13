@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>EVENT FORM</title>
+   </head>
+	
+   <body>
+      <form>
+      
+         First name: <input type = "text" name = "first_name" id ="name"/>
+         <br>
+          <br>
+         Last name: <input type = "text" name = "last_name" id ="Last" />
+          <br>
+       <input type = "submit" value = "submit">
+          </form>
+          <p id="error"></p>
+          <script>
+     var myevent = document.querySelector('form');
+     var para = document.getElementById('error');
+
+     var fst = document.getElementById('name')
+     var lst = document.getElementById('Last')    
+     myevent.onsubmit = function(e){
+         
+     if(fst.value ==='' || lst.value===''){
+         e.preventDefault()
+          para.innerText = 'Fields should not be empty';
+     para.style.color="green"
+     }
+     }
+
+    console.log(fst.value)
+    console.log(lst.value)
+    
+     
+   </script>   
+   </body>
+   </html>
