@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>DOM</title>
+   </head>
+	
+   <body>
+      <button>Click me</button>
+       <p></p>
+      <script>
+      var btn = document.querySelector('button')
+     function myhandler(){
+     alert('hi');
+          }
+     function myhandler2(){
+         var para = document.querySelector('p')
+         para.innerText = 'Hey Click'
+         }
+         btn.addEventListener('click',myhandler)
+         btn.addEventListener('click',myhandler2)
+        </script> 
+        </body>
+        </html>
